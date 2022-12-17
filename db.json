@@ -1,0 +1,154 @@
+{
+  "clientes": [
+    {
+      "name": "Joalison Matheus",
+      "email": "joalison@gmail.com",
+      "cep": "58340000",
+      "birth": "2002-02-02",
+      "createdAt": "2022-12-17T23:15:05.501Z",
+      "id": 1
+    },
+    {
+      "name": "Douglas Alves",
+      "email": "douglas@gmail.com",
+      "cep": "58340000",
+      "birth": "2002-05-09",
+      "createdAt": "2022-12-17T23:15:05.501Z",
+      "id": 2
+    },
+    {
+      "name": "Pedro Gustavo",
+      "email": "pedro@gmail.com",
+      "birth": "2022-12-17",
+      "cep": "58340000",
+      "createdAt": "2022-12-17T23:15:05.501Z",
+      "id": 3
+    },
+    {
+      "name": "Maxwell Barbosa",
+      "email": "max@gmail.com",
+      "birth": "2022-12-18",
+      "cep": "58340000",
+      "createdAt": "2022-12-17T23:23:55.056Z",
+      "id": 4
+    },
+    {
+      "name": "Ryan",
+      "email": "ryan@gmail.com",
+      "birth": "2022-12-20",
+      "cep": "59360000",
+      "createdAt": "2022-12-17T23:48:54.334Z",
+      "id": 5
+    },
+    {
+      "name": "Joalison Matheus",
+      "email": "joalison@gmail.com",
+      "cep": "58340000",
+      "birth": "2002-02-02",
+      "createdAt": "2022-12-17T23:15:05.501Z",
+      "id": 6
+    },
+    {
+      "name": "Douglas Alves",
+      "email": "douglas@gmail.com",
+      "cep": "58340000",
+      "birth": "2002-05-09",
+      "createdAt": "2022-12-17T23:15:05.501Z",
+      "id": 7
+    },
+    {
+      "name": "Pedro Gustavo",
+      "email": "pedro@gmail.com",
+      "birth": "2022-12-17",
+      "cep": "58340000",
+      "createdAt": "2022-12-17T23:15:05.501Z",
+      "id": 8
+    },
+    {
+      "name": "Maxwell Barbosa",
+      "email": "max@gmail.com",
+      "birth": "2022-12-18",
+      "cep": "58340000",
+      "createdAt": "2022-12-17T23:23:55.056Z",
+      "id": 9
+    },
+    {
+      "name": "Ryan",
+      "email": "ryan@gmail.com",
+      "birth": "2022-12-20",
+      "cep": "59360000",
+      "createdAt": "2022-12-17T23:48:54.334Z",
+      "id": 10
+    },
+    {
+      "name": "Joalison Matheus",
+      "email": "joalison@gmail.com",
+      "cep": "58340000",
+      "birth": "2002-02-02",
+      "createdAt": "2022-12-17T23:15:05.501Z",
+      "id": 11
+    },
+    {
+      "name": "Douglas Alves",
+      "email": "douglas@gmail.com",
+      "cep": "58340000",
+      "birth": "2002-05-09",
+      "createdAt": "2022-12-17T23:15:05.501Z",
+      "id": 12
+    },
+    {
+      "name": "Pedro Gustavo",
+      "email": "pedro@gmail.com",
+      "birth": "2022-12-17",
+      "cep": "58340000",
+      "createdAt": "2022-12-17T23:15:05.501Z",
+      "id": 13
+    },
+    {
+      "name": "Maxwell Barbosa",
+      "email": "max@gmail.com",
+      "birth": "2022-12-18",
+      "cep": "58340000",
+      "createdAt": "2022-12-17T23:23:55.056Z",
+      "id": 14
+    },
+    {
+      "name": "Ryan",
+      "email": "ryan@gmail.com",
+      "birth": "2022-12-20",
+      "cep": "59360000",
+      "createdAt": "2022-12-17T23:48:54.334Z",
+      "id": 15
+    }
+  ],
+  "produtos": [
+    {
+      "name": "Coxinha",
+      "description": "Coxinha de frango com cheddar",
+      "value": 10,
+      "quantity": 10,
+      "createdAt": "2022-12-17T23:15:05.501Z",
+      "id": 1
+    }
+  ],
+  "fornecedores": [
+    {
+      "name": "Pedro",
+      "email": "pedro@gmail.com",
+      "birth": "2022-12-14",
+      "cep": "58340000",
+      "createdAt": "2022-12-17T23:15:05.501Z",
+      "id": 1
+    }
+  ],
+  "entregadores": [
+    {
+      "name": "Amanda",
+      "email": "amanda@gmail.com",
+      "birth": "2022-12-14",
+      "cep": "58340000",
+      "createdAt": "2022-12-17T23:15:05.501Z",
+      "id": 1
+    }
+  ]
+}
