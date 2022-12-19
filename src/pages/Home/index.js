@@ -6,6 +6,7 @@ import styles from "./styles.module.css"
 import { NewClientModal } from "../../components/NewClientModal";
 import { ClientsContext } from "../../contexts/ClientContext";
 import { ClientsTable } from "../../components/ClientsTable";
+import { PaginationTable } from "../../components/Pagination";
 
 export const Home = () => {
   const [showModal, setShowModal] = useState(false);
@@ -26,7 +27,7 @@ export const Home = () => {
 
   return (
     <div className={styles.container}>
-      <Container className="p-5 rounded-4 shadow">
+      <Container className="p-4 rounded-4 shadow">
         <h1 className="mb-3">Clientes</h1>
         <Row className="mb-5">
           <Col className="d-flex justify-content-between">
@@ -59,6 +60,7 @@ export const Home = () => {
         </Row>
 
         <ClientsTable />
+        <PaginationTable />
 
         <NewClientModal showModal={showModal} onHideModal={handleShowModal} />
       </Container>

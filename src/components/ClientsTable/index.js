@@ -24,7 +24,7 @@ export const ClientsTable = () => {
               <td>{client.name}</td>
               <td>{client.email}</td>
               <td>{client.cep}</td>
-              <td>{dateFormatter.format(new Date(client.birth))}</td>
+              <td>{client.birth}</td>
             </tr>
           ))}
       </tbody>
