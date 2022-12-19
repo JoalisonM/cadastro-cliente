@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import { Pagination } from "react-bootstrap";
 
 import { PaginationItem } from "./PaginationItem";
 import { ClientsContext } from "../../contexts/ClientContext";

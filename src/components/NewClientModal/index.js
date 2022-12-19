@@ -1,8 +1,8 @@
 import * as yup from "yup";
 import { useContext } from "react";
 import { useForm } from "react-hook-form";
-import { Modal, Form, Button, Row, Col } from "react-bootstrap";
 import { yupResolver } from "@hookform/resolvers/yup/dist/yup";
+import { Modal, Form, Button, Row, Col } from "react-bootstrap";
 
 import { ClientsContext } from "../../contexts/ClientContext";
 

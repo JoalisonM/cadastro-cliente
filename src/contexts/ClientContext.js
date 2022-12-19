@@ -19,8 +19,8 @@ export const ClientsProvider = ({ children }) => {
     setTotalCount(totalCount);
   };
 
-  const searchClient = (value) => {
-    fetch(`http://localhost:3333/clientes?q=${value}&_sort=createdAt&_order=desc&_limit=10`, { method: "GET" })
+  const searchClient = async (value) => {
+    await fetch(`http://localhost:3333/clientes?q=${value}&_sort=createdAt&_order=desc&_limit=10`, { method: "GET" })
       .then((response) => response.json()) // retorna uma promessa
       .then((data) => setClients(data)) // seta o data
       .catch((err) => console.log("deu falha"));

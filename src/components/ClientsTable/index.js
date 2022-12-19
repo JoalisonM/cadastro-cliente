@@ -5,7 +5,6 @@ import { ClientsContext } from "../../contexts/ClientContext";
 
 export const ClientsTable = () => {
   const { clients } = useContext(ClientsContext);
-  const dateFormatter = new Intl.DateTimeFormat('pt-BR')
 
   return (
     <Table striped>

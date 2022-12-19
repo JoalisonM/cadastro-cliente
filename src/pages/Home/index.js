@@ -1,12 +1,12 @@
 import { useContext, useState } from "react";
-import { MagnifyingGlass, PlusCircle } from "phosphor-react"
+import { MagnifyingGlass, PlusCircle } from "phosphor-react";
 import { Button, Container, Row, Col } from "react-bootstrap";
 
-import styles from "./styles.module.css"
-import { NewClientModal } from "../../components/NewClientModal";
-import { ClientsContext } from "../../contexts/ClientContext";
+import styles from "./styles.module.css";
 import { ClientsTable } from "../../components/ClientsTable";
+import { ClientsContext } from "../../contexts/ClientContext";
 import { PaginationTable } from "../../components/Pagination";
+import { NewClientModal } from "../../components/NewClientModal";
 
 export const Home = () => {
   const [showModal, setShowModal] = useState(false);
@@ -30,7 +30,7 @@ export const Home = () => {
       <Container className="p-4 rounded-4 shadow">
         <h1 className="mb-3">Clientes</h1>
         <Row className="mb-5">
-          <Col className="d-flex justify-content-between">
+          <Col className="d-flex justify-content-between flex-wrap">
             <div className="d-flex align-items-center">
               <input
                 className={styles.inputSearchClient}
