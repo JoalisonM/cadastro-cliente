@@ -6,7 +6,7 @@ import { ClientsContext } from "../../contexts/ClientContext";
 export const PaginationItem = ({ number, isCurrent = false }) => {
   const { setPage } = useContext(ClientsContext);
 
-  const onPageChange = () => {
+  const handlePageChange = () => {
     setPage(number);
   };
 
@@ -24,7 +24,7 @@ export const PaginationItem = ({ number, isCurrent = false }) => {
   return (
     <Button
       active
-      onClick={() => onPageChange()}
+      onClick={() => handlePageChange()}
     >
       {number}
     </Button>
